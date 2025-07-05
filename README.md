@@ -1,4 +1,5 @@
  1. Lists
+
 ✅ Preparing Data
 Store data in arrays (often from API or static JSON).
 Ensure data is structured uniformly (e.g., array of objects).
@@ -15,6 +16,7 @@ Use filter() before map() if you want to display a subset: users.filter(user => 
 Gracefully handle cases when arrays are empty: {users.length === 0 ? <p>No users found</p> : ...}
 
 2. Keys
+
 ✅ Adding Unique Key
 Keys help React identify which items changed, added, or removed.
 Must be unique among siblings, not globally unique.
